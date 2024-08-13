@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+dojo-bindgen = { git = "https://github.com/elton-cs/dojo.git", rev = "a7300ceea122e9f0152f0a923a5f0ab544772c9c" }
+
+[patch.crates-io]
+starknet-core = { git = "https://github.com/kariy/starknet-rs", branch = "dojo-patch" }
