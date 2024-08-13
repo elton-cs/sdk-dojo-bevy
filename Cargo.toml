@@ -4,7 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+camino = "1.1.7"
+clap = "4.5.15"
 dojo-bindgen = { git = "https://github.com/elton-cs/dojo.git", rev = "a7300ceea122e9f0152f0a923a5f0ab544772c9c" }
+dojo-world = { git = "https://github.com/elton-cs/dojo.git", rev = "a7300ceea122e9f0152f0a923a5f0ab544772c9c" }
+scarb = { git = "https://github.com/software-mansion/scarb", tag = "v2.7.0" }
+scarb-ui = { git = "https://github.com/software-mansion/scarb", tag = "v2.7.0" }
+tracing = "0.1.34"
+anyhow = "1.0.80"
 
 [patch.crates-io]
 starknet-core = { git = "https://github.com/kariy/starknet-rs", branch = "dojo-patch" }
